@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Miracle Elvis">
+        <meta name="description" content=" a website for a local taco shop">
+        <link rel="icon" href=""  type="image/x-icon">
+        <link rel="stylesheet" href="main.css">
+
+        <title>The Little Taco Shop</title>
+        <style>
+            table { border: 1px solid black}
+            th {border: 1px double black}
+            td {border: 1px solid black}
+            table {border-collapse: collapse;}
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1 >Welcome to The Little Taco Shop</h1>
+            <nav aria-label="Quick site navigation links">
+                <ul>
+                    <li><a href="#about">About LTS</a></li>
+                    <li><a href="#menu">Our Menu</a></li>
+                    <li><a href="hours.html">Store Hours</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav> 
+        </header> 
+            <hr>
+        <main>
+            <figure>
+                <img src="images/taco meal.jpg" alt="a pic of a taco and a drink" width="100%" height="400">
+                <figcaption>
+                    Tacos and a Drink
+                </figcaption>
+            </figure>
+            <hr>
+            <section id="about">
+                <h2>About LTS</h2>
+                <p><abbr title="Little Taco Shop">LTS</abbr> was founded in 2022. Our shop was built from a love of tacos🌮🌮🌮. We hope our shop adds a unique and interesting place to our little town.</p>
+            </section>
+            
+            <h3>Taco Trivia</h3>
+            <aside>
+                <details>
+                    <summary>When did tacos first apper in the United States?</summary>
+                    Jeffery M Pitcher, taco historian and professor of history at the University of Minnesota,says the earliest mention of tacos in the United States are in a newspaper from 1905. <br>
+                    (Source: <cite></source:cite> <a href="https://google.om/tacohistory/">Sweetwomen Movement</a></cite>) 
+                </details>
+            </aside>
+            <hr>
+            <article id="menu">
+                <h2>Our Menu</h2>
+                <table >
+                    <caption>Our Tacos</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Tacos</th>
+                            <th scope="col">Qty</th>
+                            <th scope="col">Price</th>
+                            
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row" rowspan="3">Crunchy</th>
+                            <td>1</td>
+                            <td>$1.50</td>
+                        </tr>
+                        <tr>
+                            
+                            <td>2</td>
+                            <td>$2.50</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>$3.25</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" rowspan="3">Soft</th>
+                            <td>1</td>
+                            <td>$2.00</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>$3.50</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>$4.50</td>
+                        </tr>
+                        
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3">Chips $ Salsa $2</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </article>
+            <br>
+            <a href="#">Back to Top</a>
+        </main>
+
+        <hr>
+        <footer>
+            <p>Copyright. &copy; The Little Taco Shop </p> 
+        </footer>
+    </body>
+</html>
